@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #bba1adef;
+  background-color: #947483ef;
   color: rgb(238, 238, 238);
   font-size: 23px;
   width: auto;
@@ -12,22 +12,13 @@ body {
 p {
   font-size: 23px;
   text-align: left;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 html {
   text-align: center;
   margin: 0;
   padding-top: 60px;
-}
-
-#gombok {
-  background-color: #642e3f;
-  border: none;
-  color: white;
-  padding: 15px 30px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 35px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 nav {
@@ -108,9 +99,16 @@ body:has(#menuCheckBox:checked) {
 #BigImageDiv {
   height: 400px;
   width: 400px;
-  border: 5px solid #5e424b;
+  border: 10px solid #5e424b;
+  border-radius: 15px;
+  box-shadow: 15px 15px 15px solid black;
 }
 
 #targetImage {
   width: 100%;
+  border-radius: 5px;
+}
+
+h4 {
+  text-align: left;
 }
